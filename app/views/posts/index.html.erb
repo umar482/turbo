@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<%= turbo_stream_from 'posts' %>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody id="posts" is="turbo-frame">
+      <%= render @posts %>
+  </tbody>
+</table>
+
+<br>
+
+<%= render 'form', post: Post.new %>
+
+
+<body>
+  <h1>Imbox</h1>
+  <turbo-frame id="postssss_tray">
+    <a href="/posts/36"> Hhsdkhjahj </a>
+  </turbo-frame>
+  {below ibmvox}
+   <turbo-frame id="postssss_tray" src="/posts/37" target="_top">
+  </turbo-frame>
+</body>
