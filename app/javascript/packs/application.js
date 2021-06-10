@@ -19,3 +19,5 @@ window.Turbo = Turbo
 // const imagePath = (name) => images(name, true)
 
 import "controllers"
+import Bootstrap from 'bootstrap/dist/js/bootstrap.min.js'
+import './style.scss'
