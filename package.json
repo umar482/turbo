@@ -9,7 +9,10 @@
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
     "bootstrap": "5.0.0-beta2",
-    "stimulus": "^2.0.0"
+    "cable_ready": "^5.0.0-pre1",
+    "lodash": "^4.17.21",
+    "stimulus": "^2.0.0",
+    "webkit": "^0.0.0"
   },
   "version": "0.1.0",
   "devDependencies": {
